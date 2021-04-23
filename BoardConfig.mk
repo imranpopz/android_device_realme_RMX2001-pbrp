@@ -135,6 +135,8 @@ TW_EXCLUDE_TWRPAPP := true
 TW_INCLUDE_LOGICAL := oppo_product oppo_engineering preload_common
 TW_SUPPORT_INPUT_1_2_HAPTICS := true
 TW_OZIP_DECRYPT_KEY := 0000
+TW_Y_OFFSET := 115
+TW_H_OFFSET := -115
 
 # exFAT FS Support
 TW_INCLUDE_FUSE_EXFAT := true
