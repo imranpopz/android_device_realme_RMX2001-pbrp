@@ -137,7 +137,7 @@ TW_SUPPORT_INPUT_1_2_HAPTICS := true
 TW_OZIP_DECRYPT_KEY := 0000
 TW_Y_OFFSET := 115
 TW_H_OFFSET := -115
-TW_CUSTOM_CPU_TEMP_PATH := /sys/devices/virtual/thermal/thermal_zone3/temp
+TW_CUSTOM_CPU_TEMP_PATH := /sys/class/power_supply/battery/temp
 
 # exFAT FS Support
 TW_INCLUDE_FUSE_EXFAT := true
