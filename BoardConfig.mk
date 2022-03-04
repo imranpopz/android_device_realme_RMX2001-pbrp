@@ -139,7 +139,6 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery/root/system/etc/recovery.fstab
 # TWRP specific build flags
 TW_THEME := portrait_hdpi
 RECOVERY_SDCARD_ON_DATA := true
-BOARD_CHARGER_DISABLE_INIT_BLANK := true
 TW_EXCLUDE_DEFAULT_USB_INIT := true
 TW_EXTRA_LANGUAGES := true
 TW_INCLUDE_NTFS_3G := true
@@ -154,6 +153,7 @@ TARGET_USES_MKE2FS := true
 TW_EXCLUDE_TWRPAPP := true
 TW_INCLUDE_LOGICAL := my_product my_engineering my_company my_carrier my_region my_heytap my_stock my_preload my_manifest
 TW_SUPPORT_INPUT_1_2_HAPTICS := true
+TW_NO_HAPTICS := true
 TW_OZIP_DECRYPT_KEY := 0000
 TW_Y_OFFSET := 115
 TW_H_OFFSET := -115
