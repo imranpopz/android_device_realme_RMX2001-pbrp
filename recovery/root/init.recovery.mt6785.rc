@@ -1,10 +1,6 @@
-on init
-    mkdir /mnt/vendor/persist
-    mount ext4 /dev/block/by-name/persist /mnt/vendor/persist rw
-    setprop persist.sys.firstlaunch false
-    
 on fs
     install_keyring
+    mkdir /mnt/vendor/persist 0777 system system
     setprop crypto.ready 1
     write /sys/class/power_supply/usb/otg_switch 1
 
